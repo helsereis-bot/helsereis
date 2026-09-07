@@ -307,20 +307,28 @@ body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',san
     white-space: nowrap;
 }
 
-.instagram-link {
-    white-space: nowrap;
+.instagram-mobile {
+    display: none;
 }
 
 @media (max-width: 768px) {
 
-    .instagram-link {
+    .instagram-desktop {
         display: none;
     }
-
-    .brand {
-        white-space: nowrap;
-        font-size: 1.2rem;
+    .instagram-link {
+        border-bottom: none;
+        text-decoration: none;
     }
+
+    .instagram-mobile {
+        display: inline-block;
+        font-size: 1.2rem;
+        line-height: 1;
+        border-bottom: none;
+        text-decoration: none;
+    }
+
 }
 
 nav{position:absolute;z-index:4;top:44px;left:0;right:0;color:#fff}
