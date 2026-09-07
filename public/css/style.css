@@ -487,7 +487,41 @@ figure:first-child{grid-column:auto}
 
 }
 
+#faq {
+    scroll-margin-top: 80px;
+}
+
 section.faq-section {
     background-color: #f7d7df !important;
     border-top: 4px solid #d8ff36;
+}
+
+.publikum-section {
+    background: #B7B49F;
+    color: #000;
+}
+
+.publikum-section .kicker {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.publikum-section h2 {
+    color: #000;
+}
+
+.publikum-section .audience-card {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    margin-top: 2rem;
+    color: #000;
+}
+
+.publikum-section .audience-card p {
+    color: #000;
+}
+
+.publikum-section .quote {
+    margin-top: 2rem;
+    color: #1a1a1a;
 }
