@@ -1,36 +1,45 @@
 <script>
-    const modal = document.getElementById('avicii-modal');
-    const openBtn = document.getElementById('open-avicii');
-    const closeBtn = document.getElementById('close-avicii');
-    const video = document.getElementById('avicii-video');
+const modal = document.getElementById("avicii-modal");
+const openButtons = document.querySelectorAll(".open-avicii");
+const closeButton = document.getElementById("close-avicii");
+const video = document.getElementById("avicii-video");
+const backdrop = modal?.querySelector(".avicii-backdrop");
 
-    openBtn.addEventListener('click', (e) => {
-        e.preventDefault();
+function openModal(event) {
+    event.preventDefault();
 
-        modal.classList.add('open');
+    if (!modal) {
+        return;
+    }
 
-        /* lås scrolling i bakgrunnen */
-        document.body.style.overflow = 'hidden';
-    });
+    modal.classList.add("open");
+    document.body.style.overflow = "hidden";
+}
 
-    closeBtn.addEventListener('click', closeModal);
+function closeModal() {
+    if (!modal) {
+        return;
+    }
 
-    modal.querySelector('.avicii-backdrop')
-        .addEventListener('click', closeModal);
+    modal.classList.remove("open");
+    document.body.style.overflow = "";
 
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') {
-            closeModal();
-        }
-    });
-
-    function closeModal() {
-        modal.classList.remove('open');
-
-        /* gjenopprett scrolling */
-        document.body.style.overflow = '';
-
+    if (video) {
         video.pause();
         video.currentTime = 0;
     }
+}
+
+openButtons.forEach((button) => {
+    button.addEventListener("click", openModal);
+});
+
+closeButton?.addEventListener("click", closeModal);
+backdrop?.addEventListener("click", closeModal);
+
+document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+        closeModal();
+    }
+});
 </script>
