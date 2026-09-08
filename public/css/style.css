@@ -590,3 +590,17 @@ opacity: .85;
         width: 100%;
     }
 }
+section.error404 {
+    background: #20221d;
+    color: #ffffff;
+    min-height: calc(100vh - 60px);
+}
+
+section.error404 h1 {
+    color: #ffffff;
+   
+}
+
+section.error404 .kicker {
+    color: #d8ff36;
+}
