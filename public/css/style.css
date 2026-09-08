@@ -493,7 +493,10 @@ figure:first-child{grid-column:auto}
 
 section.faq-section {
     background-color: #f7d7df !important;
-    border-top: 4px solid #d8ff36;
+}
+
+section.interessert-section {
+    background-color: #d8e1d1 !important;
 }
 
 .publikum-section {
@@ -541,4 +544,49 @@ section.faq-section {
 }
 .hero-quote:hover {
 opacity: .85;
+}
+
+
+.interest-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    min-height: 48px;
+    margin-top: 0.75rem;
+    padding: 0.9rem 1.4rem;
+    background: var(--acid);
+    color: #20221d;
+    border: 0;
+    text-decoration: none;
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition:
+        transform 0.2s ease,
+        background-color 0.2s ease;
+}
+
+.interest-button:visited {
+    color: #20221d;
+}
+
+.interest-button:hover {
+    color: #20221d;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+.interest-button:focus-visible {
+    outline: 3px solid #20221d;
+    outline-offset: 4px;
+}
+
+@media (max-width: 768px) {
+    .interest-button {
+        width: 100%;
+    }
 }
