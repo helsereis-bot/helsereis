@@ -1,5 +1,5 @@
 ---
-title: Costa Blanca 2026
+title: Costa Blanca
 year: 2026
 destination: Costa Blanca
 
@@ -11,7 +11,7 @@ heroPosition: center
 eyebrow: ARKIV / 2026
 reportTitle: 2026 RAPPORT
 
-introTitle: Første dokumenterte feltstudie
+introTitle: Kladd!
 
 published: true
 
