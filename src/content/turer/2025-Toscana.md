@@ -1,17 +1,17 @@
 ---
-title: Dolomittene
-year: 2018
-destination: Dolomittene
+title: Toscana
+year: 2025
+destination: Toscana
 
-description: Historier, bilder, ruter og høydepunkter fra Helsereis sin runde rundt Mallorca.
+description: Legendariske landsbyer og verdens beste doppio.
 
 hero: /images/turer/2026-costa-blanca/hero.webp
 heroPosition: center
 
-eyebrow: ARKIV / 2018
-reportTitle: 2018 RAPPORT
+eyebrow: ARKIV / 2025
+reportTitle: 2025 RAPPORT
 
-introTitle: Giro Dolomiti - Ritt
+introTitle: Etruskerkysten
 
 published: true
 
@@ -19,30 +19,30 @@ stats:
   - label: Dager
     value: "7"
   - label: Kilometer
-    value: "Ukjent"
+    value: "730"
   - label: Høydemeter
-    value: "Ukjent"
+    value: "8885"
   - label: Dobbel espresso
     value: "Veldig mange"
 
 highlights:
-  - title: Stelvio
-    text: Full dag.
-  - title: Sella Ronde
-    text: Bra.
-  - title: Seiser Alm
-    text: Fine.
+  - title: Rittdagen
+    text: 312km, 4872 høgdemeter, full dag. Load 541
+  - title: Petra
+    text: Kake, kaffe og god steming.
+  - title: Sineu
+    text: Velodrom og doppio.
 
 routes:
-  - title: Stelvio
-    distance: 190 km
-    elevation: 2000 hm
+  - title: Mallorca 312
+    distance: 312 km
+    elevation: 5000 hm
     text: Dagens plan overlevde til mål - gode svar.
-  - title: Sella Ronde
-    distance: 205 km
-    elevation: 2450 hm
-    text: Draft bak Suldal Kraft. Måtte rekke Beer o clock!
-  - title: Seiser Alm
+  - title: Petra
+    distance: 126 km
+    elevation: 1450 hm
+    text: Lang nok til å rettferdiggjøre både kaffe og dessert.
+  - title: Sineau
     distance: 94 km
     elevation: 1650 hm
     text: Velodromen.
@@ -62,4 +62,4 @@ gallery:
     caption: Målgang.
 ---
 
-Mange lange fine turer. More to come.
+Legendariske småbyer, verdens beste Doppio! En "must return location" - Poggio Al Agnello.
