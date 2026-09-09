@@ -11,7 +11,7 @@ heroPosition: center
 eyebrow: ARKIV / 2022
 reportTitle: 2022 RAPPORT
 
-introTitle: Første tur på Mallis
+introTitle: Første på Mallorca
 
 published: true
 
@@ -23,7 +23,7 @@ stats:
   - label: Høydemeter
     value: "Ukjent"
   - label: Dobbel espresso
-    value: "Veldig mange"
+    value: "For mange"
 
 highlights:
   - title: Sa Calobra
