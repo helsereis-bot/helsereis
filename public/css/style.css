@@ -604,3 +604,74 @@ section.error404 h1 {
 section.error404 .kicker {
     color: #d8ff36;
 }
+
+.trip-hero {
+    position: relative;
+
+    height: 55vh;
+
+    display: flex;
+    align-items: flex-end;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.trip-hero-overlay {
+    position: absolute;
+    inset: 0;
+
+    background:
+      linear-gradient(
+        90deg,
+        rgba(0,0,0,.65) 0%,
+        rgba(0,0,0,.45) 35%,
+        rgba(0,0,0,.20) 100%
+      );
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+
+    padding-bottom: 3rem;
+}
+
+.trip-hero h1 {
+    color: #fff;
+}
+
+.trip-hero .eyebrow {
+    color: #d8ff36;
+}
+
+.eyebrow a,
+.eyebrow a:visited {
+    color: #20221d;
+    text-decoration: none;
+}
+.hero-quote .eyebrow {
+    background: #d8ff36;
+    color: #20221d;
+    padding: 0.6rem 1rem;
+}
+
+.hero-quote .eyebrow a,
+.hero-quote .eyebrow a:visited {
+    color: #20221d;
+    text-decoration: none;
+}
+.hero-quote .eyebrow a:hover {
+    opacity: 0.8;
+}
+.report-links{
+    display:flex;
+    gap:2rem;
+    flex-wrap:wrap;
+    margin-top:2rem;
+}
+
+.report-links a{
+    text-decoration:none;
+}
