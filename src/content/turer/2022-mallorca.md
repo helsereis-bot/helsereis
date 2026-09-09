@@ -11,7 +11,7 @@ heroPosition: center
 eyebrow: ARKIV / 2022
 reportTitle: 2022 RAPPORT
 
-introTitle: Can Pastilla
+introTitle: Første tur på Mallis
 
 published: true
 
