@@ -1,0 +1,43 @@
+const modal = document.getElementById("avicii-modal");
+const openButtons = document.querySelectorAll(".open-avicii");
+const closeButton = document.getElementById("close-avicii");
+const video = document.getElementById("avicii-video");
+const backdrop = modal?.querySelector(".avicii-backdrop");
+
+function openModal(event) {
+    event.preventDefault();
+
+    if (!modal) {
+        return;
+    }
+
+    modal.classList.add("open");
+    document.body.style.overflow = "hidden";
+}
+
+function closeModal() {
+    if (!modal) {
+        return;
+    }
+
+    modal.classList.remove("open");
+    document.body.style.overflow = "";
+
+    if (video) {
+        video.pause();
+        video.currentTime = 0;
+    }
+}
+
+openButtons.forEach((button) => {
+    button.addEventListener("click", openModal);
+});
+
+closeButton?.addEventListener("click", closeModal);
+backdrop?.addEventListener("click", closeModal);
+
+document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+        closeModal();
+    }
+});

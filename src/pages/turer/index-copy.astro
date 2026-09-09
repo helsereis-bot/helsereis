@@ -1,0 +1,100 @@
+---
+import Ticker from "../../components/Ticker.astro";
+import Instagram from "../../components/Instagram.astro";
+import Footer from "../../components/Footer.astro";
+---
+
+<html lang="no">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Turarkiv | Helsereis</title>
+
+    <meta
+      name="description"
+      content="Historier, bilder, ruter og høydepunkter fra turer."
+    />
+
+    <link rel="canonical" href="https://helsereis.no">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    
+    </head>
+ <body>   
+    <Ticker />
+    <Instagram />
+
+    <main>
+
+    <section class="trip-hero" style="background-image:url('/images/route-lab.webp');">
+
+<div class="trip-hero-overlay"></div>
+<div class="wrap hero-content">
+        <div class="hero-quote">
+          <span class="eyebrow">
+          Feltrapporter
+          </span>
+        </div>
+
+      <h1>
+      Egne bilder.
+      <span style="font-size:0.8em;">
+        Ekte omveier.
+      </span>
+      </h1>
+      <p class="lead">
+        Dokumentasjon av tvilsomme beslutninger siden oppstart.
+      </p>            
+</div>
+
+</section>
+
+<section class="section">
+  <div class="wrap">
+
+    <div class="kicker">
+      [01] Feltnotater
+    </div>
+    <h2>Turer</h2>
+    </div>
+  </section>
+
+  <section class="section">
+
+  <div class="wrap">
+
+    <div class="kicker">
+      [SLUTT PÅ RAPPORTOversikt]
+    </div>
+
+    <h2>
+      Kontrollert retur.
+    </h2>
+
+    <p>
+      Rapporten er avsluttet, men administrasjonen
+      vurderer allerede neste omvei.
+    </p>
+
+    <div class="report-links">
+
+      <a href="/turer/">
+        ← Tilbake til turarkivet
+      </a> 
+       
+      <a href="/">
+        Tilbake til administrasjonen →
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+    </main>
+
+    <Footer />
+  </body>
+</html>
