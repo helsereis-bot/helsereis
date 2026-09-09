@@ -904,15 +904,16 @@ section.error404 .kicker {
 }
 
 .trip-routes-section {
-    background: #d8e1d1;
+    background: #efe8dc;
 }
 
 .trip-gallery-section {
-    background: #20221d;
-    color: #ffffff;
+    background: #d8e1d1;
+    color: #20221d;
 }
 
 .trip-gallery-section h2,
-.trip-gallery-section .kicker {
-    color: #ffffff;
+.trip-gallery-section .kicker,
+.trip-gallery-section figcaption {
+    color: #20221d;
 }
