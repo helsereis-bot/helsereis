@@ -17,13 +17,13 @@ published: true
 
 stats:
   - label: Dager
-    value: "8"
+    value: "9"
   - label: Kilometer
-    value: "Sett inn"
+    value: "873"
   - label: Høydemeter
-    value: "Sett inn"
-  - label: Dobbel espresso
-    value: Ikke bokført
+    value: "16094"
+  - label: Timer
+    value: "40"
 
 highlights:
   - title: Bernia

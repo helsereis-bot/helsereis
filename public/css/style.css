@@ -889,3 +889,30 @@ section.error404 .kicker {
         gap: 1rem;
     }
 }
+
+.trip-intro {
+    background: #f3f0ea;
+}
+
+.trip-stats-section {
+    background: #03b6a742;
+    color: #20221d;
+}
+
+.trip-highlights-section {
+    background: #f7d7df;
+}
+
+.trip-routes-section {
+    background: #d8e1d1;
+}
+
+.trip-gallery-section {
+    background: #20221d;
+    color: #ffffff;
+}
+
+.trip-gallery-section h2,
+.trip-gallery-section .kicker {
+    color: #ffffff;
+}
