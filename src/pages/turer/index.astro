@@ -1,0 +1,101 @@
+---
+import { getCollection } from "astro:content";
+
+import Ticker from "../../components/Ticker.astro";
+import Instagram from "../../components/Instagram.astro";
+import Footer from "../../components/Footer.astro";
+
+const trips = (
+  await getCollection(
+    "turer",
+    ({ data }) => data.published
+  )
+).sort((a, b) => b.data.year - a.data.year);
+---
+
+<html lang="no">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+
+    <title>Turarkiv | Helsereis</title>
+
+    <meta
+      name="description"
+      content="Feltrapporter, bilder, ruter og dokumenterte omveier fra tidligere Helsereis-turer."
+    />
+
+    <link rel="canonical" href="https://helsereis.no">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  </head>
+
+  <body>
+    <Ticker />
+    <Instagram />
+
+    <main>
+         <section class="trip-hero" style="background-image:url('/images/route-lab.webp');">
+
+<div class="trip-hero-overlay"></div>
+<div class="wrap hero-content">
+        <div class="hero-quote">
+          <span class="eyebrow">
+          Feltrapporter
+          </span>
+        </div>
+
+      <h1>
+      Egne bilder.
+      <span style="font-size:0.8em;">
+        Ekte omveier.
+      </span>
+      </h1>
+      <p class="lead">
+        Dokumentasjon av tvilsomme beslutninger siden oppstart.
+      </p>            
+</div>
+
+</section>
+
+      <section class="section">
+        <div class="wrap">
+         <div class="archive-list">
+          {
+            trips.map((trip) => (
+              <a
+                class="archive-item"
+                href={`/turer/${trip.id}/`}
+        ="archive-year">
+                  {trip.data.year}
+                
+
+                <span class="archive-title">
+                  {trip.data.title}
+                </span>
+
+                <span class="archive-arrow">
+                  ↗
+                </span>
+              </a>
+            ))
+          }
+        </div>
+
+          <div class="report-links">
+            <a href="/">
+              ← Tilbake til administrasjonen
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <Footer />
+  </body>
+</html>

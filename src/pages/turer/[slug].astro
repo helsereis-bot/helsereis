@@ -1,0 +1,187 @@
+---
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import Ticker from "../../components/Ticker.astro";
+import Instagram from "../../components/Instagram.astro";
+import Footer from "../../components/Footer.astro";
+
+export async function getStaticPaths() {
+  const trips = await getCollection("turer", ({ data }) => data.published);
+
+  return trips.map((trip) => ({
+    params: { slug: trip.id },
+    props: { trip },
+  }));
+}
+
+interface Props {
+  trip: CollectionEntry<"turer">;
+}
+
+const { trip } = Astro.props;
+const { Content } = await render(trip);
+
+const siteUrl = "https:" + "//helsereis.no";
+const canonicalUrl = `${siteUrl}/turer/${trip.id}/`;
+const reportTitle = trip.data.reportTitle ?? `${trip.data.year} RAPPORT`;
+---
+
+<html lang="no">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>{trip.data.title} | Helsereis</title>
+    <meta name="description" content={trip.data.description} />
+
+    <meta property="og:title" content={`${trip.data.title} | Helsereis`} />
+    <meta property="og:description" content={trip.data.description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:type" content="article" />
+
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+
+  <body>
+    <Ticker />
+    <Instagram />
+
+    <main>
+      <section
+        class="trip-hero"
+        style={`background-image: url('${trip.data.hero}'); background-position: ${trip.data.heroPosition};`}
+      >
+        <div class="trip-hero-overlay"></div>
+
+        <div class="wrap hero-content">
+          <div class="hero-quote">
+            <a class="trip-eyebrow-link eyebrow" href="/turer/">
+              {trip.data.eyebrow}
+            </a>
+          </div>
+
+          <h1>
+            {trip.data.destination}
+            <span class="trip-report-title">{reportTitle}</span>
+          </h1>
+        </div>
+      </section>
+
+      <section class="section trip-intro">
+        <div class="wrap">
+          <div class="kicker">[01] Feltnotater</div>
+          <h2>{trip.data.introTitle}</h2>
+          <div class="trip-markdown">
+            <Content />
+          </div>
+        </div>
+      </section>
+
+      {trip.data.stats.length > 0 && (
+        <section class="section trip-stats-section">
+          <div class="wrap">
+            <div class="kicker">[02] Tallmateriale</div>
+            <h2>Dokumentert aktivitet.</h2>
+
+            <div class="trip-stats">
+              {trip.data.stats.map((stat) => (
+                <div class="trip-stat">
+                  <small>{stat.label}</small>
+                  <strong>{stat.value}</strong>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {trip.data.highlights.length > 0 && (
+        <section class="section trip-highlights-section">
+          <div class="wrap">
+            <div class="kicker">[03] Høydepunkter</div>
+            <h2>Det administrasjonen fortsatt husker.</h2>
+
+            <div class="trip-highlights">
+              {trip.data.highlights.map((highlight, index) => (
+                <article class="trip-highlight">
+                  <span>{String(index + 1).padStart(2, "0")}</span>
+                  <h3>{highlight.title}</h3>
+                  <p>{highlight.text}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {trip.data.routes.length > 0 && (
+        <section class="section trip-routes-section">
+          <div class="wrap">
+            <div class="kicker">[04] Ruteintelligens</div>
+            <h2>Veier verdt å kjøre feil på.</h2>
+
+            <div class="trip-routes">
+              {trip.data.routes.map((route) => (
+                <article class="trip-route">
+                  <h3>{route.title}</h3>
+
+                  {(route.distance || route.elevation) && (
+                    <p class="trip-route-meta">
+                      {route.distance}
+                      {route.distance && route.elevation && " · "}
+                      {route.elevation}
+                    </p>
+                  )}
+
+                  <p>{route.text}</p>
+
+                  {route.url && (
+                    <a href={route.url} target="_blank" rel="noopener noreferrer">
+                      Se ruten ↗
+                    </a>
+                  )}
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {trip.data.gallery.length > 0 && (
+        <section class="section trip-gallery-section">
+          <div class="wrap">
+            <div class="kicker">[05] Feltbilder</div>
+            <h2>Egne bilder. Ekte omveier.</h2>
+
+            <div class="trip-gallery">
+              {trip.data.gallery.map((image) => (
+                <figure>
+                  <img src={image.src} alt={image.alt} loading="lazy" />
+                  {image.caption && <figcaption>{image.caption}</figcaption>}
+                </figure>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      <section class="section trip-back-section">
+        <div class="wrap">
+          <div class="kicker">[SLUTT PÅ RAPPORT]</div>
+          <h2>Kontrollert retur.</h2>
+          <p>
+            Rapporten er avsluttet, men administrasjonen vurderer allerede neste omvei.
+          </p>
+
+          <div class="report-links">
+            <a href="/turer/">← Tilbake til turarkivet</a>
+            <a href="/">Tilbake til administrasjonen →</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <Footer />
+  </body>
+</html>
