@@ -5,13 +5,13 @@ destination: Mallorca 312
 
 description: Historier, bilder, ruter og høydepunkter fra Helsereis sin runde rundt Mallorca.
 
-hero: /images/turer/2026-costa-blanca/hero.webp
+hero: /images/turer/2025-mallorca-312/312-003.jpg
 heroPosition: center
 
 eyebrow: ARKIV / 2025
 reportTitle: 2025 RAPPORT
 
-introTitle: Mallorca 312 ritt
+introTitle: Mallorca 312 - rittet
 
 published: true
 

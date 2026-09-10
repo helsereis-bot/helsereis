@@ -5,7 +5,7 @@ destination: Mallorca
 
 description: Historier, bilder, ruter og høydepunkter fra Helsereis sin runde rundt Mallorca.
 
-hero: /images/turer/2026-costa-blanca/hero.webp
+hero: /images/turer/2022-mallorca/mallorca003.jpg
 heroPosition: center
 
 eyebrow: ARKIV / 2022
@@ -34,32 +34,47 @@ highlights:
     text: Fine.
 
 routes:
-  - title: Cap Formentor
-    distance: 190 km
-    elevation: 2000 hm
+  - title: Sa Calobra
+    distance: xxx km
+    elevation: xxxx hm
     text: Dagens plan overlevde til mål - gode svar.
-  - title: Småveier
-    distance: 205 km
-    elevation: 2450 hm
+  - title: Cap Formentor
+    distance: xxx km
+    elevation: xxxx hm
     text: Stoppet av veiarbeid med 12 km igjen!
-  - title: Sineau
-    distance: 94 km
-    elevation: 1650 hm
-    text: Velodromen.
+  - title: Sant Salvador
+    distance: xxx km
+    elevation: xxxx hm
+    text: Kloster og serpetiner.
 
 gallery:
-  - src: /images/turer/2025-mallorca-312/312-001.jpg
-    alt: Syklister på veien.
-    caption: I godt sig.
-  - src: /images/turer/2025-mallorca-312/312-002.jpg
-    alt: Fjellvei i Costa Blanca
-    caption: Tidlig morgen - lang kø.
-  - src: /images/turer/2025-mallorca-312/312-004.jpg
-    alt: Sykkelgruppe på omvei
-    caption: Rolig start, greit lys.
-  - src: /images/turer/2025-mallorca-312/312-003.jpg
-    alt: Syklister i mål
-    caption: Målgang.
+  - src: /images/turer/2022-mallorca/mallorca002.jpg
+    alt: Sant Salvador.
+    caption: Road to heaven.
+  - src: /images/turer/2022-mallorca/mallorca001.jpg
+    alt: Fjellvei
+    caption: Sant Salvador
+  - src: /images/turer/2022-mallorca/mallorca003.jpg
+    alt: Kirke
+    caption: Downhill from here
+  - src: /images/turer/2022-mallorca/mallorca004.jpg
+    alt: Fueling
+    caption: Fueling.
+  - src: /images/turer/2022-mallorca/mallorca005.jpg
+    alt: Sa Calobra
+    caption: Sa Calobra
+  - src: /images/turer/2022-mallorca/mallorca006.jpg
+    alt: Hydrering
+    caption: Hydrering
+  - src: /images/turer/2022-mallorca/mallorca007.jpg
+    alt: Coll dels Reis
+    caption: Coll dels Reis
+  - src: /images/turer/2022-mallorca/mallorca008.jpg
+    alt: Cap Formentor
+    caption: Cap Formentor - closed
+  - src: /images/turer/2022-mallorca/mallorca009.jpg
+    alt: Teknisk
+    caption: Teknisk
 ---
 
 Mange lange fine turer. More to come.

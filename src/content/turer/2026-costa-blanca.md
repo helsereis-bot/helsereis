@@ -48,18 +48,33 @@ routes:
     text: En liten stigning som tilfeldigvis varte ganske lenge.
 
 gallery:
-  - src: /images/turer/2026-costa-blanca/gallery-01.webp
+  - src: /images/turer/2026-costa-blanca/cb001.jpg
     alt: Syklister på vei i Costa Blanca
     caption: Før planen ble justert.
-  - src: /images/turer/2026-costa-blanca/gallery-02.webp
+  - src: /images/turer/2026-costa-blanca/cb002.jpg
     alt: Fjellvei i Costa Blanca
-    caption: Nå flater det ut.
-  - src: /images/turer/2026-costa-blanca/gallery-03.webp
+    caption: Suspekte stoffer må skaffes.
+  - src: /images/turer/2026-costa-blanca/cb003.jpg
     alt: Kaffe under sykkelturen
-    caption: Operativt drivstoff.
-  - src: /images/turer/2026-costa-blanca/gallery-04.webp
+    caption: Serpetinhimmelen.
+  - src: /images/turer/2026-costa-blanca/cb004.jpg
     alt: Sykkelgruppe på omvei
-    caption: Dokumentert feilnavigasjon.
+    caption: Turn by turn.
+  - src: /images/turer/2026-costa-blanca/cb005.jpg
+    alt: Vannhull
+    caption: Superrates.
+  - src: /images/turer/2026-costa-blanca/cb006.jpg
+    alt: Sykkelgruppe på omvei
+    caption: Dokumentert hydrering.
+  - src: /images/turer/2026-costa-blanca/cb007.jpg
+    alt: Sykkelhotell
+    caption: Sykkelhotell.
+  - src: /images/turer/2026-costa-blanca/cb008.jpg
+    alt: Dokumentert restitusjon.
+    caption: Dokumentert restitusjon.
+  - src: /images/turer/2026-costa-blanca/cb009.png
+    alt: Sykkelgruppe på omvei
+    caption: Pumpe watt.
 ---
 
 Costa Blanca 2026 ble gjennomført som en kvalitetssikret undersøkelse av lokale veier, lange stigninger og strategisk plasserte kaffebarer.
