@@ -11,7 +11,7 @@ heroPosition: center
 eyebrow: ARKIV / 2024
 reportTitle: 2024 RAPPORT
 
-introTitle: Can Pastilla
+introTitle: Mallorca revisited
 
 published: true
 

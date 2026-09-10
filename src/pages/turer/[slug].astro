@@ -183,5 +183,12 @@ const reportTitle = trip.data.reportTitle ?? `${trip.data.year} RAPPORT`;
     </main>
 
     <Footer />
+
+<script>
+  if ((window as any).instgrm) {
+    (window as any).instgrm.Embeds.process();
+  }
+</script>
+
   </body>
 </html>

@@ -19,7 +19,7 @@ stats:
   - label: Dager
     value: "14"
   - label: Kilometer
-    value: "xxx"
+    value: "750"
   - label: Høydemeter
     value: "xxxx"
   - label: Dobbel espresso
@@ -81,4 +81,14 @@ gallery:
     caption: Well deserved.
 ---
 
-Legendariske småbyer, verdens beste Doppio! En "must return location" - Poggio Al Agnello. 
+Legendariske småbyer, verdens beste Doppio! En "must return location"! Bu på <a href="https://www.poggioallagnello.it/en/" target="_blank">Poggio All Agnello</a> så har du alt innen rekkevidde!
+
+<div style="max-width: 400px; width: 100%; margin: 2rem auto;">
+  <iframe 
+    src="https://www.instagram.com/reel/DWG_erfDeG3/embed"
+    style="width: 100%; aspect-ratio: 9 / 16; min-height: 580px; border: 1px solid #e5e7eb; border-radius: 12px; display: block;" 
+    frameborder="0" 
+    scrolling="no" 
+    allowtransparency="true">
+  </iframe>
+</div>
