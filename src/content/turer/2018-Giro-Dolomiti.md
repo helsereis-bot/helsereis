@@ -5,13 +5,13 @@ destination: Dolomittene
 
 description: Historier, bilder, ruter og høydepunkter fra Helsereis sin runde rundt Mallorca.
 
-hero: /images/turer/2026-costa-blanca/hero.webp
+hero: /images/turer/2018-giro-dolomiti/Dolo013.jpg
 heroPosition: center
 
 eyebrow: ARKIV / 2018
 reportTitle: 2018 RAPPORT
 
-introTitle: Giro Dolomiti - Ritt
+introTitle: Giro Dolomiti 2018 - Ritt
 
 published: true
 
@@ -27,39 +27,42 @@ stats:
 
 highlights:
   - title: Stelvio
-    text: Full dag.
+    text: Sykle Stelvio på bilfrie og stengte veier! Det er noe en ikke glemmer!
   - title: Sella Ronde
-    text: Bra.
+    text: Verdens fineste runde.
   - title: Seiser Alm
     text: Fine.
 
 routes:
   - title: Stelvio
-    distance: 190 km
-    elevation: 2000 hm
+    distance: xxx km
+    elevation: xxxx hm
     text: Dagens plan overlevde til mål - gode svar.
   - title: Sella Ronde
-    distance: 205 km
-    elevation: 2450 hm
-    text: Draft bak Suldal Kraft. Måtte rekke Beer o clock!
+    distance: xxx km
+    elevation: xxxx hm
+    text: Verdens fineste sykkelrunde
   - title: Seiser Alm
-    distance: 94 km
-    elevation: 1650 hm
-    text: Velodromen.
+    distance: xxx km
+    elevation: xxxx hm
+    text: Naaaais.
 
 gallery:
-  - src: /images/turer/2025-mallorca-312/312-001.jpg
-    alt: Syklister på veien.
-    caption: I godt sig.
-  - src: /images/turer/2025-mallorca-312/312-002.jpg
-    alt: Fjellvei i Costa Blanca
-    caption: Tidlig morgen - lang kø.
-  - src: /images/turer/2025-mallorca-312/312-004.jpg
-    alt: Sykkelgruppe på omvei
-    caption: Rolig start, greit lys.
-  - src: /images/turer/2025-mallorca-312/312-003.jpg
+  - src: /images/turer/2018-giro-dolomiti/Dolo007.jpg
+    alt: Syklist på veien.
+    caption: Nedkjøling av kokt syklist
+  - src: /images/turer/2018-giro-dolomiti/Dolo009.jpg
+    alt: Syklister med fjell i bakgrunn
+    caption: Relativt ok nedkjøring - Sella Ronde.
+  - src: /images/turer/2018-giro-dolomiti/Dolo008.jpg
+    alt: Syklist med startnummer
+    caption: Det jages.
+  - src: /images/turer/2018-giro-dolomiti/Dolo011.jpg
+    alt: Syklist opp Stelvio
+    caption: Stelvio på stengte veier! Once in a lifetime.
+  - src: /images/turer/2018-giro-dolomiti/Dolo012.jpg
     alt: Syklister i mål
-    caption: Målgang.
+    caption: Målgang Stelvio-etappen.
 ---
 
 Mange lange fine turer. More to come.

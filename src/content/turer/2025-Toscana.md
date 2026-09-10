@@ -5,7 +5,7 @@ destination: Toscana
 
 description: Legendariske landsbyer og verdens beste doppio.
 
-hero: /images/turer/2026-costa-blanca/hero.webp
+hero: /images/turer/2025-toscana/Pio008.jpg
 heroPosition: center
 
 eyebrow: ARKIV / 2025
@@ -17,49 +17,68 @@ published: true
 
 stats:
   - label: Dager
-    value: "7"
+    value: "14"
   - label: Kilometer
-    value: "730"
+    value: "xxx"
   - label: Høydemeter
-    value: "8885"
+    value: "xxxx"
   - label: Dobbel espresso
-    value: "Veldig mange"
+    value: "Overload"
 
 highlights:
-  - title: Rittdagen
-    text: 312km, 4872 høgdemeter, full dag. Load 541
-  - title: Petra
-    text: Kake, kaffe og god steming.
-  - title: Sineu
-    text: Velodrom og doppio.
+  - title: Italienske frokoster
+    text: Tidlige morgenturer for doppio og søtt
+  - title: Soloppganger
+    text: Nydelig toscansk landskap badene i sol.
+  - title: Poggio Al Agnello
+    text: Nydelige aktivitetsresort for folks som like aktivitet.
+  - title: Populonia
+    text: Massa Maritima, Suvereto, Piombino, Sassetta, Sassa og et utall andre fantastiske smålandsbyer
+  - title: Baratti
+    text: Baratti bukta - bad, hygg og strandliv
 
 routes:
-  - title: Mallorca 312
-    distance: 312 km
-    elevation: 5000 hm
+  - title: Sassa
+    distance: xxx km
+    elevation: xxxx hm
     text: Dagens plan overlevde til mål - gode svar.
-  - title: Petra
-    distance: 126 km
-    elevation: 1450 hm
+  - title: Suvereto
+    distance: xxx km
+    elevation: xxxx hm
     text: Lang nok til å rettferdiggjøre både kaffe og dessert.
-  - title: Sineau
-    distance: 94 km
-    elevation: 1650 hm
-    text: Velodromen.
+  - title: Massa Maritima
+    distance: xxx km
+    elevation: xxxx hm
+    text: Nice.
 
 gallery:
-  - src: /images/turer/2025-mallorca-312/312-001.jpg
+  - src: /images/turer/2025-toscana/Pio005.jpg
     alt: Syklister på veien.
-    caption: I godt sig.
-  - src: /images/turer/2025-mallorca-312/312-002.jpg
-    alt: Fjellvei i Costa Blanca
-    caption: Tidlig morgen - lang kø.
-  - src: /images/turer/2025-mallorca-312/312-004.jpg
-    alt: Sykkelgruppe på omvei
-    caption: Rolig start, greit lys.
-  - src: /images/turer/2025-mallorca-312/312-003.jpg
-    alt: Syklister i mål
-    caption: Målgang.
+    caption: Morning view.
+  - src: /images/turer/2025-toscana/Pio001.jpg
+    alt: Syklister på veien.
+    caption: Italian streets.
+  - src: /images/turer/2025-toscana/Pio006.jpg
+    alt: Populonia
+    caption: Populonia view.
+  - src: /images/turer/2025-toscana/Pio003.jpg
+    alt: PoggioAllAgnello
+    caption: Perfect location to stay.
+  - src: /images/turer/2025-toscana/Pio004.jpg
+    alt: Doppio og søtt
+    caption: Italia breakfast. Aero&Doppio.
+  - src: /images/turer/2025-toscana/Pio011.jpg
+    alt: Soloppgang
+    caption: For en soloppgang!
+  - src: /images/turer/2025-toscana/Pio012.jpg
+    alt: Utsikt fra Fassa
+    caption: Morgenutsikt fra Fassa
+  - src: /images/turer/2025-toscana/Pio015.png
+    alt: Superbe veier
+    caption: For noen veier!
+  - src: /images/turer/2025-toscana/Pio014.jpg
+    alt: Syklist med ichnusa
+    caption: Well deserved.
 ---
 
-Legendariske småbyer, verdens beste Doppio! En "must return location" - Poggio Al Agnello.
+Legendariske småbyer, verdens beste Doppio! En "must return location" - Poggio Al Agnello. 
