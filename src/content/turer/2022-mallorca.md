@@ -41,7 +41,7 @@ routes:
   - title: Småveier
     distance: 205 km
     elevation: 2450 hm
-    text: Draft bak Suldal Kraft. Måtte rekke Beer o clock!
+    text: Stoppet av veiarbeid med 12 km igjen!
   - title: Sineau
     distance: 94 km
     elevation: 1650 hm

@@ -23,7 +23,7 @@ stats:
   - label: Høydemeter
     value: "Ukjent"
   - label: Dobbel espresso
-    value: "Veldig mange"
+    value: "For mange? Nei!"
 
 highlights:
   - title: Cap Formentor
