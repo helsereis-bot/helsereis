@@ -17,11 +17,11 @@ published: true
 
 stats:
   - label: Dager
-    value: "7"
+    value: "6"
   - label: Kilometer
-    value: "Ukjent"
+    value: "655"
   - label: Høydemeter
-    value: "Ukjent"
+    value: "11746"
   - label: Dobbel espresso
     value: "Veldig mange"
 
@@ -35,16 +35,16 @@ highlights:
 
 routes:
   - title: Stelvio
-    distance: xxx km
-    elevation: xxxx hm
+    distance: 66,42 km
+    elevation: 1839 hm
     text: Dagens plan overlevde til mål - gode svar.
   - title: Sella Ronde
-    distance: xxx km
-    elevation: xxxx hm
+    distance: 172 km
+    elevation: 3413 hm
     text: Verdens fineste sykkelrunde
   - title: Seiser Alm
-    distance: xxx km
-    elevation: xxxx hm
+    distance: 101 km
+    elevation: 1694 hm
     text: Naaaais.
 
 gallery:
@@ -65,4 +65,8 @@ gallery:
     caption: Målgang Stelvio-etappen.
 ---
 
-Mange lange fine turer. More to come.
+Det som startet som et friskt oppstartsstøt over Jaufenpass i 2018, utartet seg raskt til ei uke med dramatisk klatring, hinsides stigningsprosent og beintøff innsats i de italienske Dolomittene.
+
+Påkjenningen lot ikke vente på seg da turen gikk videre mot Obereggen og den majestetiske Sellaronda-runden. Der fikk lår, lunger og syreterskel virkelig kjørt seg gjennom episke fjellpass, før legendariske Passo Stelvio bød på uka sin mest urutinerte taktiske brøler: Å stoppe for en iskald øl på baren 20 meter før Strava-segmentet sluttet. Det kostet dyrt på tidtakinga, men gjorde underværker for moralen!
+
+Etter å ha tynt det siste ut av beina opp mot Seiser Alm, ble uka rundet av i ren ritt-og overskuddsstil med lagtempo (TTT) for Team Lotto Suldal, der det ble støtet helt inn til krampa tok overskriftene.
