@@ -19,9 +19,9 @@ stats:
   - label: Dager
     value: "7"
   - label: Kilometer
-    value: "Ukjent"
+    value: "647,5"
   - label: Høydemeter
-    value: "Ukjent"
+    value: "6580"
   - label: Dobbel espresso
     value: "Veldig mange"
 
@@ -77,4 +77,10 @@ gallery:
     caption: Teknisk
 ---
 
-Mange lange fine turer. More to come.
+Det som startet som en uskyldig og rolig «tuning» av lånesykkel langs promenaden i Palma, utartet seg raskt til ei uke med systematisk nedkjemping av spanske høydemeter, tøffe motvindsdueller og inntak av astronomiske mengder fersk bakst, cortado og god kola.
+
+Gjennom sju etapper tilbrakte vi nærmere 29 aktive timer i sadelen – eller nærmere 35 timer om vi regner med alle livsviktige kaffestopp. Vi har utfordret alle Mallorca sine himmelretninger: Vi har helsa på høyere makter oppe ved klosteret i Sant Salvador, oppdaget at «mange koller små gjør en stor å» i vest, og svetta oss gjennom solsteika i Orient.
+
+Turens absolutte utstyrs- og syretest var kongeetappen til Sa Calobra, Puig Major og Col de Sóller. Der fikk sikringsskapet virkelig kjørt seg med en innsats på linje med Jotunheimen Rundt – i tillegg til at vi satte ny personlig rekord i å betale overpris for bananer nedi Sa Calobra-hullet. Vi har også krysset øya på tvers helt ut til «Nordkapp» på Cap Formentor, der vi ble møtt av både rosa utedo og stengt vei rett før fyret, før vi rundet av hele feltreisen i Ses Salines med kulturlandskap, bronsealderhistorie og fersk bakst på den lokale kafeen.
+
+Totalt la vi bak oss 647,5 km og 6 580 høydemeter, tråkka ut 15 540 kJ med ren råkraft, og beviste én gang for alle den gyldne formelen: Tilstrekkelig mengde lokalt bakverk kombinert med et optimalt humle- og karbohydratlager gir garantert formhopp!

@@ -19,9 +19,9 @@ stats:
   - label: Dager
     value: "7"
   - label: Kilometer
-    value: "Ukjent"
+    value: "895,9"
   - label: Høydemeter
-    value: "Ukjent"
+    value: "9791"
   - label: Dobbel espresso
     value: "For mange? Nei!"
 
@@ -71,4 +71,12 @@ gallery:
     caption: Well deserved.
 ---
 
-Mange lange fine turer. More to come.
+Det som startet som en rolig oppvarmingsreise i 2024 til Cura og Puig de Randa – komplett med kake-stopp og spurting for å nå øl-segmentet «to the beer» – utviklet seg raskt til ei uke med episk vestlandsregn, beintøff kjøring i felt og gastronomiske høydepunkter.
+
+Når hele 66,6 % av rytterne i feltet gikk i massevelt under turen mot Galilea og Orient, var det bare én ting å gjøre: Henge seg på lokomotivet fra Statkraft aka Suldal Kraft, bite tennene sammen og ignorere at været oppførte seg mer som Vestlandet i november enn Spania i april. Lårene fikk heller ingen nåde dagen etter da ferden gikk tvers over øya – over 204 seige kilometer til Artà og kysten hjem igjen, drevet frem på ren viljestyrke og ferske bakverk.
+
+Spenningen fortsatte gjennom ikoniske klassikere som Sóller, Deià og Valdemossa, før nesa igjen ble pekt nordover mot selve kronjuvelen Cap Formentor. Med over 183 kilometer i beina og strålende sol var det duket for ren feiring, men uka bød også på banebrytende avvekslinger: På etappe #6 tok gengen turen innom velodromen i Sineu for å teste banetråkket og jage Strava-PR på flying laps.
+
+Finaleetappen «Up, down and around» ble en verdig avslutning på årets Helsereise. Ferden gikk ned og opp de elleville kystveiene til Port de Valdemossa og Port des Canonge retning Andratx, der belønningen var krystallklar: Bygdas ubestridte beste burger i Banyalbufar.
+
+Totalt la feltet bak seg over 850 kilometer og nærmere 10 000 høydemeter med ren turglede, regnskurer, banemoro og solid innsats i sadelen – og beviste nok en gang at riktig næring i form av kake og burgere er nøkkelen til suksess!
