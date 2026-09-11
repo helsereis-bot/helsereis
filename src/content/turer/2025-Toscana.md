@@ -83,12 +83,13 @@ gallery:
 
 Legendariske småbyer, verdens beste Doppio! En "must return location"! Bu på <a href="https://www.poggioallagnello.it/en/" target="_blank">Poggio All Agnello</a> så har du alt innen rekkevidde!
 
-<div style="max-width: 400px; width: 100%; margin: 2rem auto;">
-  <iframe 
-    src="https://www.instagram.com/reel/DWG_erfDeG3/embed"
-    style="width: 100%; aspect-ratio: 9 / 16; min-height: 580px; border: 1px solid #e5e7eb; border-radius: 12px; display: block;" 
-    frameborder="0" 
-    scrolling="no" 
-    allowtransparency="true">
-  </iframe>
+Sommertoget rullet til Poggio all'Agnello (@poggioallagnello), og det viste seg å være den perfekte basen for en "Helsereis" med hele gjengen. 🇮🇹✨ 
+
+Sjekk ut Reel fra Route LAB™:
+
+<div class="trip-stories">
+    <a class="trip-story" href="https://www.instagram.com/reel/DWG_erfDeG3/" target="_blank" rel="noopener noreferrer">
+        <span class="trip-story-label">📸 Slik "sniker" du inn 750 km i sommerferien uten at barna merker det. 🤫🚴‍♂️</span>
+        <span class="trip-story-account">@helsereis ↗</span>
+    </a>
 </div>
