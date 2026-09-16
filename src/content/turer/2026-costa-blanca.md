@@ -11,7 +11,7 @@ heroPosition: center
 eyebrow: ARKIV / 2026
 reportTitle: 2026 RAPPORT
 
-introTitle: Kladd!
+introTitle: Fastlandsdebuten
 
 published: true
 
@@ -19,11 +19,11 @@ stats:
   - label: Dager
     value: "9"
   - label: Kilometer
-    value: "873"
+    value: "875"
   - label: Høydemeter
     value: "16094"
   - label: Timer
-    value: "40"
+    value: "39,5"
 
 highlights:
   - title: Bernia
@@ -32,6 +32,8 @@ highlights:
     text: Veier som belønner innsatsen, særlig dersom noen allerede har lokalisert bakeriet.
   - title: Cap Negret
     text: Basecamp, frokostberedskap og et sted å omskrive dagens hendelser til egne bragder.
+  - title: Superrates
+    text: Ellevill stigningsprosent! Bilfritt, utsikt og altfor tunge gir.
 
 routes:
   - title: Bernia-runden
@@ -77,8 +79,12 @@ gallery:
     caption: Pumpe watt.
 ---
 
-Costa Blanca 2026 ble gjennomført som en kvalitetssikret undersøkelse av lokale veier, lange stigninger og strategisk plasserte kaffebarer.
+Costa Blanca i april 2026 ble en skikkelig helsereis, med ren turglede, brennende lår og episke etapper på rekke og rad. Base på Hotel Cap Negret i Altea var en innertier.
 
-Datagrunnlaget viser at kombinasjonen sykkel, vårsol og café solo doble fortsatt fungerer overraskende godt.
+Det som startet som en rolig «riste-av-seg-flyreisen»-etappe for å sjekke at styret pekte rett vei, utviklet seg til ei uke fullspakket med ikoniske utfordringer som Guadalest, Vall de Ebo, Sa Creueta og Coll de Rates. Beina fikk kjørt seg skikkelig da gjengen stanget trynet inn i kneiker på over 20 % opp Super Rates og Puig de la Llorença – der opptil flere sto igjen med traumer over for liten kassett bak, og der det paniske søket etter et ikke-eksisterende nødgir raskt ble feltets nye favorittdisiplin.
 
-Noen turer blir planlagt. Andre begynner med en flybillett og utvikler seg derfra.
+Stilmessig var det imidlertid ingenting å utsette på troppen. Etter lang tids venting var feltet endelig komplett da sistemann fikk utstyrt seg med hvite sko – og dertil passende, kritthvite sokker dratt opp til millimeterpresis høyde, helt i tråd med Sykkelpolitiets ubestridelige stilråd. 
+
+Mellom slagene bød turen på fantastiske traseer gjennom Relleu, Tuent og den frodige Appelsindalen retning Dénia, der snittfarten sank drastisk i det sekundet lukten av fersk cortado, pizza og god mat meldte seg. Uka bød på den perfekte balansen mellom knallhardt wattpust i bakken og tilbakelente kafferunder i sola.
+
+Totalt la feltet bak seg over 875 kilometer og elleville 16 094 høydemeter fordelt på drøye 39,5 timer i sadelen. Med proffe tanlines, minimalt med skrubbing og mil etter mil på strøkne spanske veier, beviste gjengen nok en gang at riktig mengde kaffe, ferske bakverk og god mat er den ultimate oppskriften på en vellykket sesongstart!
