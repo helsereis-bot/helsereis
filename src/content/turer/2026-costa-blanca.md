@@ -5,7 +5,7 @@ destination: Costa Blanca
 
 description: Historier, bilder, ruter og høydepunkter fra Helsereis til Costa Blanca i 2026.
 
-hero: /images/turer/2026-costa-blanca/hero.webp
+hero: /images/turer/2026-costa-blanca/cb004.jpg
 heroPosition: center
 
 eyebrow: ARKIV / 2026
